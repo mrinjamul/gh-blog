@@ -2,7 +2,8 @@
 title: "Create and Manage services in Termux"
 date: 2021-02-09T19:10:43+05:30
 katex: math
-draft: true
+tags: ["termux", "services", "cli"]
+draft: false
 ---
 
 In this post, I will show you how to create and manage services in Termux.

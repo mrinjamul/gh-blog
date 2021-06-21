@@ -1,6 +1,7 @@
 ---
 title: "Little bit about Arch Linux"
 date: 2020-11-05T12:05:43+05:30
+tags: ["arch", "linux", "dwm", "cli"]
 draft: false
 ---
 
