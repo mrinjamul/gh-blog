@@ -1,0 +1,35 @@
+baseURL = "https://www.example.com/"
+languageCode = "en-us"
+title = "username's blog"
+theme = "github-style"
+googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "username"
+  description = "Description"
+  github = "username"
+  facebook = "username"
+  twitter = "username"
+  linkedin = "username"
+  instagram = "username"
+  tumblr = "username"
+  email = "username@gmail.com"
+  url = "https://www.example.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "India"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/username"
+  [[params.links]]
+    title = "Link2"
+    href = "https://www.example.com"
+    icon = "https://www.example.com/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

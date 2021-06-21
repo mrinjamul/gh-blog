@@ -1,0 +1,26 @@
+baseURL = "https://mrinjamul.github.io/gh-blog"
+languageCode = "en-us"
+title = "mrinjamul's blog"
+theme = "github-style"
+googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Injamul Mohammad Mollah"
+  description = ""
+  github = "mrinjamul"
+  facebook = "mrinjamul"
+  twitter = "mrinjamul"
+  linkedin = "mrinjamul"
+  instagram = "mrinjamul"
+  email = "mrinjamul@gmail.com"
+  url = "https://mrinjamul.is-a.dev"
+  keywords = "blog"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "India"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
